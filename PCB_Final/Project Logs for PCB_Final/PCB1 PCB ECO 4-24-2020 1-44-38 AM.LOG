@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=H? NewDesignator=H1
+Change Component Designator: OldDesignator=H? NewDesignator=H2
+Change Component Designator: OldDesignator=H? NewDesignator=H3
+Change Component Designator: OldDesignator=H? NewDesignator=H4
+Added Member To Class: ClassName=Sheet1 Member=Component H1 Hole 3mm
+Added Member To Class: ClassName=Sheet1 Member=Component H3 Hole 3mm
+Added Member To Class: ClassName=Sheet1 Member=Component H4 Hole 3mm

@@ -1,0 +1,524 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47K40 ]
+[d frameptr 4065 ]
+"9 C:\Users\Johnny Li\Desktop\Altium-MPLAB\Stepper_Motor.X\adc.c
+[v _adc_init adc_init `(v  1 e 1 0 ]
+"19
+[v _adcNum0 adcNum0 `(ul  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"1 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"53 C:\Users\Johnny Li\Desktop\Altium-MPLAB\Stepper_Motor.X\sm.c
+[v _steptakeR steptakeR `(v  1 e 1 0 ]
+"116
+[v _steptakeL steptakeL `(v  1 e 1 0 ]
+"174
+[v _ccp_init ccp_init `(v  1 e 1 0 ]
+"215
+[v _ccpNum0 ccpNum0 `(f  1 e 4 0 ]
+"242
+[v _main main `(v  1 e 1 0 ]
+"3059 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f47k40.h
+[v _CCP1PPS CCP1PPS `VEuc  1 e 1 @3759 ]
+[s S188 . 1 `uc 1 CCP1IF 1 0 :1:0 
+`uc 1 CCP2IF 1 0 :1:1 
+]
+"5103
+[u S191 . 1 `S188 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES191  1 e 1 @3792 ]
+"8522
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+"9514
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"13917
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @3936 ]
+[s S438 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"13952
+[s S447 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S451 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S453 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S455 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[s S457 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S460 . 1 `S438 1 . 1 0 `S447 1 . 1 0 `S451 1 . 1 0 `S453 1 . 1 0 `S455 1 . 1 0 `S457 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES460  1 e 1 @3936 ]
+"14159
+[v _ADRES ADRES `VEus  1 e 2 @3939 ]
+[s S290 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"16414
+[s S299 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S308 . 1 `S290 1 . 1 0 `S299 1 . 1 0 ]
+[v _LATAbits LATAbits `VES308  1 e 1 @3971 ]
+[s S201 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"16954
+[u S210 . 1 `S201 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES210  1 e 1 @3976 ]
+"17054
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+[s S259 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"17198
+[u S268 . 1 `S259 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES268  1 e 1 @3978 ]
+"17298
+[v _TRISD TRISD `VEuc  1 e 1 @3979 ]
+[s S222 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"17506
+[s S231 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 LVDIN 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S237 . 1 `S222 1 . 1 0 `S231 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES237  1 e 1 @3981 ]
+"17566
+[v _PORTB PORTB `VEuc  1 e 1 @3982 ]
+"17723
+[v _PORTD PORTD `VEuc  1 e 1 @3984 ]
+"21611
+[v _CCPR1 CCPR1 `VEus  1 e 2 @4010 ]
+[s S128 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 FMT 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"21695
+[s S134 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+[s S139 . 1 `uc 1 CCP1MODE 1 0 :4:0 
+`uc 1 CCP1FMT 1 0 :1:4 
+`uc 1 CCP1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP1EN 1 0 :1:7 
+]
+[s S145 . 1 `uc 1 CCP1MODE0 1 0 :1:0 
+`uc 1 CCP1MODE1 1 0 :1:1 
+`uc 1 CCP1MODE2 1 0 :1:2 
+`uc 1 CCP1MODE3 1 0 :1:3 
+]
+[s S150 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S153 . 1 `S128 1 . 1 0 `S134 1 . 1 0 `S139 1 . 1 0 `S145 1 . 1 0 `S150 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES153  1 e 1 @4012 ]
+"25547
+[v _TMR1 TMR1 `VEus  1 e 2 @4045 ]
+[s S35 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_SYNC 1 0 :1:2 
+]
+"25883
+[s S38 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+[s S44 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+[s S47 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S54 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S58 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S61 . 1 `S35 1 . 1 0 `S38 1 . 1 0 `S44 1 . 1 0 `S47 1 . 1 0 `S54 1 . 1 0 `S58 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES61  1 e 1 @4047 ]
+[s S95 . 1 `uc 1 CS 1 0 :4:0 
+]
+"26424
+[s S97 . 1 `uc 1 T1CS0 1 0 :1:0 
+`uc 1 T1CS1 1 0 :1:1 
+`uc 1 T1CS2 1 0 :1:2 
+`uc 1 T1CS3 1 0 :1:3 
+]
+[s S102 . 1 `uc 1 CS0 1 0 :1:0 
+`uc 1 CS1 1 0 :1:1 
+`uc 1 CS2 1 0 :1:2 
+`uc 1 CS3 1 0 :1:3 
+]
+[u S107 . 1 `S95 1 . 1 0 `S97 1 . 1 0 `S102 1 . 1 0 ]
+[v _TMR1CLKbits TMR1CLKbits `VES107  1 e 1 @4050 ]
+"29436
+[v _CCP1IE CCP1IE `VEb  1 e 0 @30272 ]
+"30132
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"31539
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"33168
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @32380 ]
+"33171
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @32381 ]
+"33819
+[v _TMR1IF TMR1IF `VEb  1 e 0 @30320 ]
+"33852
+[v _TMR1ON TMR1ON `VEb  1 e 0 @32376 ]
+"35 C:\Users\Johnny Li\Desktop\Altium-MPLAB\Stepper_Motor.X\sm.c
+[v _value0 value0 `ul  1 e 4 0 ]
+"36
+[v _currfuel currfuel `ul  1 e 4 0 ]
+"37
+[v _currfreq currfreq `ul  1 e 4 0 ]
+"38
+[v _step step `i  1 e 2 0 ]
+"39
+[v _stepf stepf `i  1 e 2 0 ]
+"40
+[v _freq freq `i  1 e 2 0 ]
+"41
+[v _test test `i  1 e 2 0 ]
+"42
+[v _temp temp `i  1 e 2 0 ]
+"198
+[v _f f `ul  1 e 4 0 ]
+"199
+[v _f2 f2 `ul  1 e 4 0 ]
+"200
+[v _f3 f3 `ul  1 e 4 0 ]
+"242
+[v _main main `(v  1 e 1 0 ]
+{
+"348
+[v main@t_407 t `i  1 a 2 62 ]
+"344
+[v main@t_406 t `i  1 a 2 84 ]
+"318
+[v main@t_404 t `i  1 a 2 58 ]
+"314
+[v main@t_403 t `i  1 a 2 82 ]
+"404
+[v main@t_423 t `i  1 a 2 70 ]
+"400
+[v main@t_422 t `i  1 a 2 88 ]
+"385
+[v main@t_420 t `i  1 a 2 66 ]
+"381
+[v main@t_419 t `i  1 a 2 86 ]
+"336
+[v main@t_405 t `i  1 a 2 60 ]
+"310
+[v main@t_402 t `i  1 a 2 56 ]
+"396
+[v main@t_421 t `i  1 a 2 68 ]
+"377
+[v main@t_418 t `i  1 a 2 64 ]
+"300
+[v main@dist dist `i  1 a 2 72 ]
+"374
+[v main@dist2 dist2 `i  1 a 2 74 ]
+"284
+[v main@w w `i  1 a 2 80 ]
+"280
+[v main@n n `i  1 a 2 90 ]
+"273
+[v main@t_398 t `i  1 a 2 78 ]
+"265
+[v main@t t `i  1 a 2 76 ]
+"416
+} 0
+"53
+[v _steptakeR steptakeR `(v  1 e 1 0 ]
+{
+[v steptakeR@dir dir `i  1 p 2 0 ]
+"106
+} 0
+"116
+[v _steptakeL steptakeL `(v  1 e 1 0 ]
+{
+[v steptakeL@dir dir `i  1 p 2 0 ]
+"169
+} 0
+"174
+[v _ccp_init ccp_init `(v  1 e 1 0 ]
+{
+"196
+} 0
+"215
+[v _ccpNum0 ccpNum0 `(f  1 e 4 0 ]
+{
+"231
+[v ccpNum0@period period `ul  1 a 4 18 ]
+"216
+[v ccpNum0@q q `i  1 a 2 26 ]
+"237
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 28 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 27 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 18 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 26 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 13 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 12 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 4 ]
+"70
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S806 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S811 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S814 . 4 `l 1 i 4 0 `d 1 f 4 0 `S806 1 fAsBytes 4 0 `S811 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S814  1 a 4 51 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 45 ]
+[s S882 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S885 . 2 `s 1 i 2 0 `us 1 n 2 0 `S882 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S885  1 a 2 55 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 50 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 49 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 44 ]
+"8
+[v ___flmul@b b `d  1 p 4 32 ]
+[v ___flmul@a a `d  1 p 4 36 ]
+"205
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 76 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 69 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 74 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 81 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 80 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 73 ]
+"11
+[v ___fldiv@b b `d  1 p 4 57 ]
+[v ___fldiv@a a `d  1 p 4 61 ]
+"185
+} 0
+"9 C:\Users\Johnny Li\Desktop\Altium-MPLAB\Stepper_Motor.X\adc.c
+[v _adc_init adc_init `(v  1 e 1 0 ]
+{
+"14
+} 0
+"19
+[v _adcNum0 adcNum0 `(ul  1 e 4 0 ]
+{
+"30
+} 0
+"1 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 0 ]
+"4
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 8 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 4 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 6 ]
+"53
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 21 ]
+"7
+[v ___llmod@dividend dividend `ul  1 p 4 13 ]
+[v ___llmod@divisor divisor `ul  1 p 4 17 ]
+"25
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"245 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 4 ]
+[v ___flsub@a a `d  1 p 4 8 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 3 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 2 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 1 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 0 ]
+"10
+[v ___fladd@b b `d  1 p 4 82 ]
+[v ___fladd@a a `d  1 p 4 86 ]
+"237
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 12 ]
+[v ___flge@ff2 ff2 `d  1 p 4 16 ]
+"19
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 19 ]
+[v ___awmod@counter counter `uc  1 a 1 18 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 14 ]
+[v ___awmod@divisor divisor `i  1 p 2 16 ]
+"34
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 16 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 15 ]
+[v ___awdiv@counter counter `uc  1 a 1 14 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 10 ]
+[v ___awdiv@divisor divisor `i  1 p 2 12 ]
+"41
+} 0
